@@ -1,0 +1,1627 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PropiedadesBlazor</name>
+    </assembly>
+    <members>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.AccessDeniedModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.AccessDeniedModel.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ConfirmEmailModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ConfirmEmailChangeModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ExternalLoginModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ExternalLoginModel.ProviderDisplayName">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ExternalLoginModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ExternalLoginModel.ErrorMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.ExternalLoginModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ExternalLoginModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ForgotPasswordModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.ForgotPasswordModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ForgotPasswordModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.ForgotPasswordConfirmation">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.ForgotPasswordConfirmation.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.LockoutModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.LockoutModel.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.ErrorMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginModel.InputModel.RememberMe">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWith2faModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWith2faModel.RememberMe">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWith2faModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWith2faModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWith2faModel.InputModel.TwoFactorCode">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWith2faModel.InputModel.RememberMachine">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel.InputModel.RecoveryCode">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.InputModel.OldPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.InputModel.NewPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ChangePasswordModel.InputModel.ConfirmPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.RequirePassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.Disable2faModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EmailModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EmailModel.IsEmailConfirmed">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EmailModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EmailModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EmailModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EmailModel.InputModel.NewEmail">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.SharedKey">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.AuthenticatorUri">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.RecoveryCodes">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.InputModel.Code">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.CurrentLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.OtherLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.ShowRemoveButton">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel.RecoveryCodes">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.IndexModel.Username">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.IndexModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.IndexModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.IndexModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.IndexModel.InputModel.PhoneNumber">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.Index">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.ChangePassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.DownloadPersonalData">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.DeletePersonalData">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.PersonalData">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.TwoFactorAuthentication">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.IndexNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.EmailNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.ChangePasswordNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.DownloadPersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.DeletePersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.ExternalLoginsNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.PersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.TwoFactorAuthenticationNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ManageNavPages.PageNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.SetPasswordModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.SetPasswordModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel.NewPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel.ConfirmPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel.RecoveryCodes">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.HasAuthenticator">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.RecoveryCodesLeft">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.Is2faEnabled">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.IsMachineRemembered">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterModel.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterModel.InputModel.ConfirmPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterConfirmationModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterConfirmationModel.DisplayConfirmAccountLink">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.RegisterConfirmationModel.EmailConfirmationUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ResendEmailConfirmationModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.ResendEmailConfirmationModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ResendEmailConfirmationModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordModel.InputModel.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordModel.InputModel.ConfirmPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordModel.InputModel.Code">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordConfirmationModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.Account.ResetPasswordConfirmationModel.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Areas.Identity.Pages.ErrorModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.ErrorModel.RequestId">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Areas.Identity.Pages.ErrorModel.ShowRequestId">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Areas.Identity.Pages.ErrorModel.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Data.ApplicationDbContext">
+            <summary>
+            contiene las clases/tablas que se van a usar para las consultas
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Data.ApplicationDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{PropiedadesBlazor.Data.ApplicationDbContext})">
+            <summary>
+            Contexto de datos para la aplicacion
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:PropiedadesBlazor.Data.ApplicationDbContext.Category">
+            <summary>
+            Contexto de la tabla/modelo Categoria
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Data.ApplicationDbContext.Property">
+            <summary>
+            Contexto de la tabla/modelo Propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Data.ApplicationDbContext.PropertyImage">
+            <summary>
+            contexto de la tabla/modelo Imagen propiedad
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Data.Migrations.InitialMigrationCategoryModelCreation">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.InitialMigrationCategoryModelCreation.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.InitialMigrationCategoryModelCreation.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.InitialMigrationCategoryModelCreation.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PropiedadesBlazor.Data.Migrations.CreationTablePropertyAndCategoryRelationship">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.CreationTablePropertyAndCategoryRelationship.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.CreationTablePropertyAndCategoryRelationship.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.CreationTablePropertyAndCategoryRelationship.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PropiedadesBlazor.Data.Migrations.CreationModelImagePropertyAndRelationships">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.CreationModelImagePropertyAndRelationships.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.CreationModelImagePropertyAndRelationships.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PropiedadesBlazor.Data.Migrations.CreationModelImagePropertyAndRelationships.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PropiedadesBlazor.Helpers.IJsHelper">
+            <summary>
+            ayuda con las notificaciones globales de la app
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Helpers.IJsHelper.ToastrSuccess(Microsoft.JSInterop.IJSRuntime,System.String)">
+            <summary>
+            muestra un mensaje satisfactorio despues de realizar alguna operacion
+            </summary>
+            <param name="JSRuntime"></param>
+            <param name="message"></param>
+            <returns>el mensaje satisfactorio en notificacion</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Helpers.IJsHelper.ToastrError(Microsoft.JSInterop.IJSRuntime,System.String)">
+            <summary>
+            muestra un mensaje de error despues de realizar alguna operacion
+            </summary>
+            <param name="JSRuntime"></param>
+            <param name="message"></param>
+            <returns>el mensaje de error en notificacion</returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Mapper.ProfileMap">
+            <summary>
+            Mapeo de los modelos ej: modeloCategory con ModeloCategoryDTO y en reversa
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Mapper.ProfileMap.#ctor">
+            <summary>
+            Constructor. se encarga de mapear los modelos 
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Models.Category">
+            <summary>
+            clase categoria contiene solo los atributos sin mensajes 
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Category.Id">
+            <summary>
+            campo id de la categoria valor int
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Category.CategoryName">
+            <summary>
+            campo nombre de la categoria valor string
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Category.Description">
+            <summary>
+            campo descripcion de la categoria valor string
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Category.CreationDate">
+            <summary>
+            campo fecha de creacion se instancia al momento en que se crea una categoria
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Category.CreationUpdate">
+            <summary>
+            campo fecha de actualizacion se instancia al momento de hacer una actualizacion
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Category.Property">
+            <summary>
+            relacion con tabla/modelo Property 
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Models.DTO.CategoryDTO">
+            <summary>
+            clase que sirve como intermediaria para no exponer el modelo y hacer validaciones
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.CategoryDTO.Id">
+            <summary>
+            campo id de la categoria valor int
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.CategoryDTO.CategoryName">
+            <summary>
+            campo nombre de la categoria valor string
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.CategoryDTO.Description">
+            <summary>
+            campo descripcion de la categoria valor string
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Models.DTO.DropDownCategoryDTO">
+            <summary>
+            Lista desplegable que muestra las categorias en la seccion propiedades 
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.DropDownCategoryDTO.Id">
+            <summary>
+            identificador unico sirve como value en el option de un select
+            debe tener el mismo nombre que en la entidad Category
+            representa el Id de la categoria
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.DropDownCategoryDTO.CategoryName">
+            <summary>
+            nombre a mostrar de la categoria en la etiqueta option
+            debe tener el mismo nombre que en la entidad Category
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Models.DTO.PropertyDTO">
+            <summary>
+            DTO del modelo propiedad con los atributos a mostrar al cliente
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.Id">
+            <summary>
+            Campo Id clave foranea auto-incremental
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.Name">
+            <summary>
+            Campo Nombre de la Propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.Description">
+            <summary>
+            Campo descripcion de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.Area">
+            <summary>
+            Campo Area m2 de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.bedrooms">
+            <summary>
+            Campo Habitaciones de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.bathrooms">
+            <summary>
+            Campo Baños que tiene la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.parking">
+            <summary>
+            Campo Parqueadero que tiene de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.Price">
+            <summary>
+            Campo precio de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.Active">
+            <summary>
+            Campo Activo de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.UpdateDate">
+            <summary>
+            Campo fecha de actualizacion de la propiedad
+            </summary>    
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.CategoriaId">
+            <summary>
+            Campo que sirve como FK con la tabla Categoria
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.category">
+            <summary>
+            acceso a la categoria desde el DTO para el Dropdown
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.PropertyImages">
+            <summary>
+            lista de imagenes de una propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyDTO.UrlImages">
+            <summary>
+            la direccion de la ubicacion de las imagenes
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Models.DTO.PropertyImageDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyImageDTO.Id">
+            <summary>
+            PK autoincremental para relacionar las imagenes DTO
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyImageDTO.PropertyId">
+            <summary>
+            FK con la tabla propiedad DTO
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.DTO.PropertyImageDTO.UrlImageProperty">
+            <summary>
+            ruta de la imagen que se guarda en un directorio DTO
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Models.Property">
+            <summary>
+            Tabla de Propiedades en la bd
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.Id">
+            <summary>
+            Campo Id clave foranea auto-incremental
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.Name">
+            <summary>
+            Campo Nombre de la Propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.Description">
+            <summary>
+            Campo descripcion de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.Area">
+            <summary>
+            Campo Area de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.bedrooms">
+            <summary>
+            Campo Habitaciones de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.bathrooms">
+            <summary>
+            Campo Baños que tiene la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.parking">
+            <summary>
+            Campo Parqueadero que tiene de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.Price">
+            <summary>
+            Campo precio de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.Active">
+            <summary>
+            Campo Activo de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.CreationDate">
+            <summary>
+            Campo fecha de creacion de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.UpdateDate">
+            <summary>
+            Campo fecha de actualizacion de la propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.CategoriaId">
+            <summary>
+            Campo que sirve como FK con la tabla Categoria
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.category">
+            <summary>
+            campo relacionado con la tabla Categoria
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.Property.PropertyImages">
+            <summary>
+            lista de imagenes de una propiedad
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Models.PropertyImage">
+            <summary>
+            relacion propiedades con las imagenes 
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.PropertyImage.Id">
+            <summary>
+            PK autoincremental para relacionar las imagenes
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.PropertyImage.PropertyId">
+            <summary>
+            FK con la tabla propiedad
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.PropertyImage.UrlImageProperty">
+            <summary>
+            ruta de la imagen que se guarda en un directorio
+            </summary>
+        </member>
+        <member name="P:PropiedadesBlazor.Models.PropertyImage.Property">
+            <summary>
+            relacion con la tabla propiedad
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.BlazorJavascript.CompBlazorJavascript.DemoSuccessToastr(System.String)">
+            <summary>
+            mensaje generico para operacion satisfactoria en toastr
+            </summary>
+            <param name="message"></param>
+            <returns>Ok</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.BlazorJavascript.CompBlazorJavascript.DemoErrorToastr(System.String)">
+            <summary>
+             mensaje generico para operacion fallida en toastr
+            </summary>
+            <param name="message"></param>
+            <returns>Error</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.BlazorJavascript.CompBlazorJavascript.DemoSuccessSwal">
+            <summary>
+            mensaje generico para operacion satisfactoria en swal
+            </summary>
+            <returns>Ok</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.BlazorJavascript.CompBlazorJavascript.DemoErrorSwal">
+            <summary>
+            mensaje generico para operacion fallida en swal
+            </summary>
+            <returns>Error</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Categories.CompCreateCategory.HandlerOnCreateCategory">
+            <summary>
+            valida si ya existe una categoria caso contrario si ya existe notifica con error
+            caso contrario se crea una nueva categoria y se redirecciona a la pagina de categorias
+            </summary>
+            <returns>la categoria creada </returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Categories.CompEditCategory.HandlerOnEditCategory">
+            <summary>
+            valida si la categoria a actualizar tiene el mismo nombre sino 
+            se procede a actualizar la categoria
+            </summary>
+            <returns>la categoria actualizada o retorna </returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Properties.CompCreateProperty.HandlerOnCreateProperty">
+            <summary>
+            crea la propiedad con todos sus campos incluyendo las imagenes.
+            valida por el nombre si existe ya una propiedad
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Properties.CompCreateProperty.HandlerOnUploadFile(Microsoft.AspNetCore.Components.Forms.InputFileChangeEventArgs)">
+            <summary>
+            Se encarga de subir los archivos de las img para ciertos formatos
+            validando si ya existen imagenes 
+            </summary>
+            <param name="files"></param>
+            <returns>mensaje satisfactorio o de error al subir una imagen</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Properties.CompCreateProperty.DeleteImage(System.String)">
+            <summary>
+            elimina una imagen por su url
+            </summary>
+            <param name="urlImage"></param>
+            <returns>mensaje satisfactorio o de error al eliminar la imagen</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Properties.CompCreateProperty.AddPropertyImages(PropiedadesBlazor.Models.DTO.PropertyDTO)">
+            <summary>
+            agrega las imagenes a la propiedad cargando la url y su id 
+            </summary>
+            <param name="propDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Properties.CompEditProperty.HandlerOnEditProperty">
+            <summary>
+            actualiza la propiedad con imagenes
+            </summary>
+            <returns>void</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Properties.CompEditProperty.HandlerOnUploadFile(Microsoft.AspNetCore.Components.Forms.InputFileChangeEventArgs)">
+            <summary>
+            Se encarga de subir los archivos de las img para ciertos formatos
+            validando si ya existen imagenes
+            </summary>
+            <param name="files"></param>
+            <returns>mensaje satisfactorio o de error al subir una imagen</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Pages.Properties.CompEditProperty.DeleteImage(System.String)">
+            <summary>
+            elimina una imagen por su url
+            </summary>
+            <param name="urlImage"></param>
+            <returns>mensaje satisfactorio o de error al eliminar la imagen</returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Repository.CategoryRepository">
+            <summary>
+            Clase encargada de aplicar los metodos de la interfaz para las operaciones de consultas
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.#ctor(PropiedadesBlazor.Data.ApplicationDbContext,AutoMapper.IMapper)">
+            <summary>
+            inyecta el contexto y el mapper en el ctor
+            </summary>
+            <param name="context"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.CategoryExists(System.String)">
+            <summary>
+            valida que el nombre en bd coincida con el parametro recibido para ver si existe la categoria
+            </summary>
+            <param name="name"></param>
+            <returns>la categoria encontrada o null</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.CreateCategory(PropiedadesBlazor.Models.DTO.CategoryDTO)">
+            <summary>
+            crea una categoria a partir del objeto dto y pasando el mapper
+            </summary>
+            <param name="categoryDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.DeleteCategory(System.Int32)">
+            <summary>
+            elimina una categoria en base a su Id 
+            </summary>
+            <param name="categoryId"></param>
+            <returns>la categoria eliminada o nulll</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.GetAllCategories">
+            <summary>
+            obtiene una lista de categorias
+            </summary>
+            <returns>una lista de categorias o null</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.GetCategory(System.Int32)">
+            <summary>
+            Obtine la categoria unica mediante el su Id
+            </summary>
+            <param name="categoryId"></param>
+            <returns>la categoria encontrada o null</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.GetDropDownCategories">
+            <summary>
+            muestra la lista de categorias en un dropdown
+            </summary>
+            <returns>la lista de categorias o nulo si no tiene registros</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.CategoryRepository.UpdateCategory(System.Int32,PropiedadesBlazor.Models.DTO.CategoryDTO)">
+            <summary>
+            si se encuentra la categoria con el id actualiza el objeto Categoria haciendo el autoMapeo
+            </summary>
+            <param name="categoryId"></param>
+            <param name="categoryDTO"></param>
+            <returns>la entidad actualizada o null</returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Repository.IRepository.ICategoryRepository">
+            <summary>
+            contiene los metodos de consultas al modelo categoria
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.ICategoryRepository.GetAllCategories">
+            <summary>
+            metodo que obtiene la lista de todas las categorias
+            </summary>
+            <returns>lista de categoriasDTO o null si no hay</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.ICategoryRepository.GetCategory(System.Int32)">
+            <summary>
+            obtiene una categoria por el id
+            </summary>
+            <param name="categoryId"></param>
+            <returns>un objeto de categoria o null</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.ICategoryRepository.CreateCategory(PropiedadesBlazor.Models.DTO.CategoryDTO)">
+            <summary>
+            Crea categoria recibiendo un objeto de categoriaDTO
+            </summary>
+            <param name="categoryDTO"></param>
+            <returns>la categoria creada o null</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.ICategoryRepository.UpdateCategory(System.Int32,PropiedadesBlazor.Models.DTO.CategoryDTO)">
+            <summary>
+            Actualiza una categoria recibiendo su id y el objeto con los cambios
+            </summary>
+            <param name="categoryId"></param>
+            <param name="categoryDTO"></param>
+            <returns>la categoria actualizada</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.ICategoryRepository.CategoryExists(System.String)">
+            <summary>
+            valida si la categoria existe por el nombre
+            </summary>
+            <param name="name"></param>
+            <returns>la categoria existente o null si no se encuentra </returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.ICategoryRepository.DeleteCategory(System.Int32)">
+            <summary>
+            Elimina la categoria por el id
+            </summary>
+            <param name="categoryId"></param>
+            <returns>la categoria eliminada o 0 si no se pudo eliminar </returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.ICategoryRepository.GetDropDownCategories">
+            <summary>
+            muestra en la lista desplegable todas las categorias
+            </summary>
+            <returns>la lista de categoriasDTO o nulo si no existen categorias</returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Repository.IRepository.IPropertyImageRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyImageRepository.CreatePropertyWithImage(PropiedadesBlazor.Models.DTO.PropertyImageDTO)">
+            <summary>
+            Añade la imagen a la creacion de la propiedad
+            </summary>
+            <param name="propertyImageDTO"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyImageRepository.DeleteImagePropertyByImageId(System.Int32)">
+            <summary>
+            elimina una imagen por su id eliminando unicamente esa imagen
+            </summary>
+            <param name="imageId"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyImageRepository.DeleteImagePropertyByPropertyId(System.Int32)">
+            <summary>
+            elimina una imagen por el id de la propiedad si elimina la propiedad
+            las imagenes tambien deben ser eliminadas
+            </summary>
+            <param name="propertyId"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyImageRepository.DeleteImagePropertyByUrlImage(System.String)">
+            <summary>
+            elimina una imagen por su url
+            </summary>
+            <param name="urlImage"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyImageRepository.GetPropertyImages(System.Int32)">
+            <summary>
+            trae la lista de imagenes de la propiedad
+            </summary>
+            <param name="propertyId"></param>
+            <returns>la lista de imagenes encontradas o null en caso contrario</returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Repository.IRepository.IPropertyRepository">
+            <summary>
+            contiene los metodos de consultas al modelo propiedad
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyRepository.GetAllProperties">
+            <summary>
+            metodo que obtiene la lista de todas las propiedads
+            </summary>
+            <returns>lista de propiedadsDTO o null si no hay</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyRepository.GetProperty(System.Int32)">
+            <summary>
+            obtiene una propiedad por el id
+            </summary>
+            <param name="propertyId"></param>
+            <returns>un objeto de propiedad o null</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyRepository.CreateProperty(PropiedadesBlazor.Models.DTO.PropertyDTO)">
+            <summary>
+            Crea propiedad recibiendo un objeto de propiedadDTO
+            </summary>
+            <param name="propertyDTO"></param>
+            <returns>la propiedad creada o null</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyRepository.UpdateProperty(System.Int32,PropiedadesBlazor.Models.DTO.PropertyDTO)">
+            <summary>
+            Actualiza una propiedad recibiendo su id y el objeto con los cambios
+            </summary>
+            <param name="propertyId"></param>
+            <param name="propertyDTO"></param>
+            <returns>la propiedad actualizada o null</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyRepository.PropertyExists(System.String)">
+            <summary>
+            valida si la propiedad existe por el nombre
+            </summary>
+            <param name="name"></param>
+            <returns>la propiedad existente o null si no se encuentra </returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.IRepository.IPropertyRepository.DeleteProperty(System.Int32)">
+            <summary>
+            Elimina la propiedad por el id
+            </summary>
+            <param name="propertyId"></param>
+            <returns>la propiedad eliminada o 0 si no se pudo eliminar </returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Repository.PropertyImageRepository">
+            <summary>
+            implementacion de los metodos de lectura y escritura 
+            sobre la entidad propiedaImagenes
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyImageRepository.#ctor(PropiedadesBlazor.Data.ApplicationDbContext,AutoMapper.IMapper)">
+            <summary>
+            constructor encargado de inyectar las dependencias de la bd y automapper
+            </summary>
+            <param name="context"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyImageRepository.CreatePropertyWithImage(PropiedadesBlazor.Models.DTO.PropertyImageDTO)">
+            <summary>
+            mapeo la imagen del DTO al modelo real y se agrega a bd
+            </summary>
+            <param name="propertyImageDTO"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyImageRepository.DeleteImagePropertyByImageId(System.Int32)">
+            <summary>
+            Elimina la imagen de la propiedad por Id 
+            si el objeto encontrado no se nulo y guarda cambios en bd
+            </summary>
+            <param name="imageId"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyImageRepository.DeleteImagePropertyByPropertyId(System.Int32)">
+            <summary>
+            Elimina la lista de imagenes asociadas a una propiedad
+            </summary>
+            <param name="propertyId"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyImageRepository.DeleteImagePropertyByUrlImage(System.String)">
+            <summary>
+            Elimina la imagen de la propiedad por su Url 
+            si el objeto encontrado no se nulo y guarda cambios en bd
+            </summary>
+            <param name="urlImage"></param>
+            <returns>cantidad de entradas escritas en bd o 0 caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyImageRepository.GetPropertyImages(System.Int32)">
+            <summary>
+            Obtiene una lista de imagenesPropiedadDTO 
+            </summary>
+            <param name="propertyId"></param>
+            <returns>la lista de imagenes encontradas o null en caso contrario</returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Repository.PropertyRepository">
+            <summary>
+            Implementacion de los metodos la interface repositori
+            contiene los metodos de lectura y escritura
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyRepository.#ctor(PropiedadesBlazor.Data.ApplicationDbContext,AutoMapper.IMapper)">
+            <summary>
+            Constructor encargo de instanciar las dependencias del contexto
+            y el mapper 
+            </summary>
+            <param name="context"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyRepository.CreateProperty(PropiedadesBlazor.Models.DTO.PropertyDTO)">
+            <summary>
+            Instancia una propiedad pasando del modelo DTO al modelo en bd
+            agrega la fecha de creacion al momento. y vuelve a mapear al DTO
+            </summary>
+            <param name="propertyDTO"></param>
+            <returns>la propiedad agg Property en Bd ya mapeada</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyRepository.DeleteProperty(System.Int32)">
+            <summary>
+            Elimina una propiedad en base a su Id y las imagenes asociadas
+            </summary>
+            <param name="propertyId"></param>
+            <returns>la cantidad de entidades modificadas 
+            en caso de no encontrar el id retorna 0</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyRepository.GetAllProperties">
+            <summary>
+            Obtiene todas las propiedades como una coleccion incluyendo las imagenes 
+            y las categorias 
+            </summary>
+            <returns>el conjunto de datos obtenidos. Nullo si no hay datos </returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyRepository.GetProperty(System.Int32)">
+            <summary>
+            Obtiene una propiedad en base a su Id haciendo el mapeo para la obtencion
+            </summary>
+            <param name="propertyId"></param>
+            <returns>PropiedadDTO o nulo si no lo pudo encontrar</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyRepository.PropertyExists(System.String)">
+            <summary>
+            Valida si ya existe una propiedad con el mismo nombre
+            </summary>
+            <param name="name"></param>
+            <returns>el modelo DTO de Propiedad o Null si no existe </returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Repository.PropertyRepository.UpdateProperty(System.Int32,PropiedadesBlazor.Models.DTO.PropertyDTO)">
+            <summary>
+            Actualiza la propiedad por si coinciden el Id, agrega la fecha de actualizacion
+            al momento y guarda los cambios
+            </summary>
+            <param name="propertyId"></param>
+            <param name="propertyDTO"></param>
+            <returns>la propiedad como entidad actualizada o nulo si no se pudo </returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Services.DBInitializer">
+            <summary>
+            Clase encargada de implementar los metodos para inicializar
+            los roles y las credenciales de los usuarios para la siembra de datos
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.DBInitializer.#ctor(PropiedadesBlazor.Data.ApplicationDbContext,Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.RoleManager{Microsoft.AspNetCore.Identity.IdentityRole})">
+            <summary>
+            constructor de la clase Initializer, inyecta las dependencias 
+            del contexto, el user y el rol.
+            </summary>
+            <param name="context"></param>
+            <param name="userManager"></param>
+            <param name="roleManager"></param>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.DBInitializer.initialize">
+            <summary>
+            se encarga de validar primero si hay migraciones pendientes.
+            setea las propiedades del usuario en la simebra de datos
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Services.IDBInitializer">
+            <summary>
+            interfaz para la siembra de datos contiene el metodo para inicializar
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.IDBInitializer.initialize">
+            <summary>
+            se encarga de set los campos de un administrador para la siembra de datos
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Services.IUploadFiles">
+            <summary>
+            servicio para subir o eliminar los archivos
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.IUploadFiles.uploadFiles(Microsoft.AspNetCore.Components.Forms.IBrowserFile)">
+            <summary>
+            sube las imagenes-archivos a la propiedad
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.IUploadFiles.DeleteFile(System.String)">
+            <summary>
+            elimina el archivo-imagen por el nombre del archivo
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PropiedadesBlazor.Services.Settings">
+            <summary>
+            Clase que contiene los roles de aplicacion ya definidas en 
+            la siembra de datos
+            </summary>
+        </member>
+        <member name="F:PropiedadesBlazor.Services.Settings.Rol_Administrator">
+            <summary>
+            define el valor que va a tener un rol en la app
+            </summary>
+        </member>
+        <member name="T:PropiedadesBlazor.Services.UploadFiles">
+            <summary>
+            Implementa los metodos para subir archivo y eliminarlos
+            </summary>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.UploadFiles.#ctor(Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            inyecta los servicios IWebHostEnvironment e IConfiguration 
+            </summary>
+            <param name="webHostenvironment"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.UploadFiles.DeleteFile(System.String)">
+            <summary>
+            elimina el archivo mediante la ruta 
+            </summary>
+            <param name="fileName"></param>
+            <returns>true si la operacion fue exitosa o false caso contrario</returns>
+        </member>
+        <member name="M:PropiedadesBlazor.Services.UploadFiles.uploadFiles(Microsoft.AspNetCore.Components.Forms.IBrowserFile)">
+            <summary>
+            Guarda el nombre del archivo mas su extension concatenandole
+            un guid, evitando nombres repetidos
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

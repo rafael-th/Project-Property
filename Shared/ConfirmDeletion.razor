@@ -1,0 +1,52 @@
+﻿<!-- Modal -->
+<div class="modal fade" id="modalConfirmDeletion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Confirm Delete</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                @onclick="() => ConfirmOnChange(false)"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure to delete?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="() => ConfirmOnChange(false)">Cancel</button>
+                
+                @if (processStarted)
+                {
+                    <button type="button" class="btn btn-danger">Processing...</button>
+                }
+                else
+                {
+                    <button type="button" class="btn btn-danger" @onclick="() => ConfirmOnChange(true)">
+                        <i class="bi bi-trash-fill"></i>&nbsp;Delete
+                    </button>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    public bool processStarted { get; set; } = false;
+
+    [Parameter]
+    public EventCallback<bool> confirmChange { get; set; }
+
+    [Parameter]
+    public bool processingParentComponent { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        processStarted = processingParentComponent;
+    }
+
+    protected async Task ConfirmOnChange(bool value)
+    {
+        if (value)
+            processStarted = true;
+
+        await confirmChange.InvokeAsync(value);
+    }
+}

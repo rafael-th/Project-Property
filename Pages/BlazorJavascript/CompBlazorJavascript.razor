@@ -1,0 +1,46 @@
+﻿@inject IJSRuntime JsRuntime
+
+@code {
+
+    //Metodos Toastr
+
+    /// <summary>
+    /// mensaje generico para operacion satisfactoria en toastr
+    /// </summary>
+    /// <param name="message"></param>
+    /// <returns>Ok</returns>
+    private async Task DemoSuccessToastr(string message)
+    {
+        await JsRuntime.ToastrSuccess("Ok");
+    }
+
+    /// <summary>
+    ///  mensaje generico para operacion fallida en toastr
+    /// </summary>
+    /// <param name="message"></param>
+    /// <returns>Error</returns>
+    private async Task DemoErrorToastr(string message)
+    {
+        await JsRuntime.ToastrError("Error");
+    }
+
+    //Metodos SweetAlerts
+
+    /// <summary>
+    /// mensaje generico para operacion satisfactoria en swal
+    /// </summary>
+    /// <returns>Ok</returns>
+    private async Task DemoSuccessSwal()
+    {
+        await JsRuntime.InvokeVoidAsync("ShowSwal","success","Ok");
+    }
+
+    /// <summary>
+    /// mensaje generico para operacion fallida en swal
+    /// </summary>
+    /// <returns>Error</returns>
+    private async Task DemoErrorSwal()
+    {
+        await JsRuntime.InvokeVoidAsync("ShowSwal", "error", "Error");
+    }
+}

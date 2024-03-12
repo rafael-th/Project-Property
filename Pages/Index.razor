@@ -1,0 +1,49 @@
+﻿@page "/"
+@using PropiedadesBlazor.Models.DTO
+@using PropiedadesBlazor.Repository.IRepository
+@inject IPropertyRepository propertyRepository
+
+<PageTitle>Home</PageTitle>
+
+<h1 class="text-center">News Properties</h1>
+
+<div class="row">
+    @foreach (var property in propertiesDTO)
+    {
+        @if (property.Active)
+        {
+            <div class="col-3 mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>@property.Name</h3>
+                    </div>
+                    <div class="card-body">
+                        @if (property.PropertyImages.Count() > 0)
+                        {
+                            @foreach (var image in property.PropertyImages.Take(1))
+                            {
+                                <img src="@image.UrlImageProperty" class="img-fluid image-index" />
+                            }
+                        }
+                        else
+                        {
+                            <img src="images/no-image.jpg" class="img-fluid" />
+                        }
+                    </div>
+                    <div class="card-footer">
+                        <NavLink href="@($"property-detail/{property.Id}")"> More Info...</NavLink>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+@code{
+    private IEnumerable<PropertyDTO> propertiesDTO { get; set; } = new List<PropertyDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        propertiesDTO = await propertyRepository.GetAllProperties();
+    }
+}

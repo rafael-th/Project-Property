@@ -1,0 +1,361 @@
+﻿@page "/edit-property/{Id:int}"
+@using Models.DTO
+@using Repository.IRepository
+@using Services
+@inject IPropertyRepository propertyRepository
+@inject ICategoryRepository categoryRepository
+@inject IPropertyImageRepository propertyImageRepository
+@inject NavigationManager navigationManager
+@inject IUploadFiles uploadFile
+@inject IJSRuntime JsRuntime
+
+@attribute [Authorize]
+
+
+<h1 class="text-center">Edit Property</h1>
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+            <div class="col-7">
+                <h2 class="text-dark">Edit selected property</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body">
+        <EditForm Model="propertyDTO" OnValidSubmit="@( () => HandlerOnEditProperty())">
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <ValidationSummary></ValidationSummary>
+            <div class="container">
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Name:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputText @bind-Value="propertyDTO.Name" class="form-control" placeholder="Enter your name"></InputText>
+                            <ValidationMessage For="() => propertyDTO.Name"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Description:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputText @bind-Value="propertyDTO.Description" class="form-control" placeholder="Enter the description"></InputText>
+                            <ValidationMessage For="() => propertyDTO.Description"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Area:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputNumber @bind-Value="propertyDTO.Area" class="form-control" placeholder="Enter the area"></InputNumber>
+                            <ValidationMessage For="() => propertyDTO.Area"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Bedrooms:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputNumber @bind-Value="propertyDTO.bedrooms" class="form-control" placeholder="Enter the number of rooms"></InputNumber>
+                            <ValidationMessage For="() => propertyDTO.bedrooms"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Bathrooms:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputNumber @bind-Value="propertyDTO.bathrooms" class="form-control" placeholder="Enter the number of bathrooms"></InputNumber>
+                            <ValidationMessage For="() => propertyDTO.bathrooms"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Parking:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputNumber @bind-Value="propertyDTO.parking" class="form-control" placeholder="Enter the number of parking spaces"></InputNumber>
+                            <ValidationMessage For="() => propertyDTO.parking"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Price:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputNumber @bind-Value="propertyDTO.Price" class="form-control" placeholder="Enter the price"></InputNumber>
+                            <ValidationMessage For="() => propertyDTO.Price"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Active:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputCheckbox @bind-Value="propertyDTO.Active"></InputCheckbox>
+                            <ValidationMessage For="() => propertyDTO.Active"></ValidationMessage>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Categories:</label>
+                        </div>
+                        <div class="col-6">
+                            <InputSelect @bind-Value="selectedCategory.Id" class="form-control">
+                                @* <option value="">--seleccione categoria--</option> *@
+                                
+                                @foreach (var category in dropDownCategoryDTO)
+                                {
+                                    <option value="@category.Id">@category.CategoryName</option>
+                                }
+                            </InputSelect>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="form-group" style="padding-top:30px; padding-bottom:30px;">
+                    <hr />
+                    <h4>Property Images</h4>
+                    <InputFile OnChange="HandlerOnUploadFile" multiple></InputFile>
+                    <div class="row">
+                        @if (imageUploadProcessIsStarted)
+                        {
+                            <div class="col-md-12">
+                                <span><i class="bi bi-arrow-repeat"></i>Please wait while the images load</span>
+                            </div>
+                        }
+
+                        @if (propertyDTO.UrlImages != null && propertyDTO.UrlImages.Count() > 0)
+                        {
+                            int count = 1;
+
+                            foreach (var propertyImage in propertyDTO.UrlImages)
+                            {
+                                <div class="col-md-2 mt-3">
+                                    <div class="property-image" style="background: url('@propertyImage') 50% 50%">
+                                        <span class="property-image-title">@count</span>
+                                    </div>
+                                    <button type="button" @onclick="()=> DeleteImage(propertyImage)" class="btn btn-outline-danger btn-block mt-4">
+                                        Delete
+                                    </button>
+                                </div>
+                                count++;
+                            }
+                        }
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <button type="submit" class="btn btn-success"><i class="bi bi-gear-fill"></i>&nbsp;Save</button>
+                        </div>
+                        <div class="col-6">
+                            <NavLink href="properties" class="btn btn-secondary"><i class="bi bi-arrow-left-circle-fill"></i>&nbsp;Back</NavLink>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+
+@code {
+
+    private PropertyDTO propertyDTO { get; set; } = new PropertyDTO();
+    private DropDownCategoryDTO selectedCategory = new DropDownCategoryDTO();
+    private IEnumerable<DropDownCategoryDTO> dropDownCategoryDTO { get; set; } = new List<DropDownCategoryDTO>();
+    private bool imageUploadProcessIsStarted { get; set; } = false;
+    private PropertyImageDTO imageDTO { get; set; } = new PropertyImageDTO();
+    List<string> nameDeletedImages { get; set; } = new List<string>();
+
+    [Parameter]
+    public int? Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        dropDownCategoryDTO = await categoryRepository.GetDropDownCategories();
+
+        if (Id != null)
+        {
+            propertyDTO = await propertyRepository.GetProperty(Id.Value);
+
+            if (propertyDTO?.PropertyImages != null)
+            {
+                propertyDTO.UrlImages = propertyDTO.PropertyImages.Select(pi => pi.UrlImageProperty).ToList();
+            }
+        }
+    }
+
+    /// <summary>
+    /// actualiza la propiedad con imagenes
+    /// </summary>
+    /// <returns>void</returns>
+    private async Task HandlerOnEditProperty()
+    {
+        //obtencion del Id de la categoria en el DropDown
+        propertyDTO.CategoriaId = selectedCategory.Id;
+
+        var resultUpdateProperty = await propertyRepository.UpdateProperty(propertyDTO.Id, propertyDTO);
+
+        if( (propertyDTO.UrlImages != null && propertyDTO.UrlImages.Any()) ||
+            (nameDeletedImages != null && nameDeletedImages.Any()) )
+        {
+            if (nameDeletedImages != null && nameDeletedImages.Any())
+            {
+                foreach (var nameDeletedImage in nameDeletedImages)
+                {
+                    var imageName = nameDeletedImage.Replace($"{navigationManager.BaseUri}PropertiesImages/", "");
+                    var result = uploadFile.DeleteFile(imageName);
+                    await propertyImageRepository.DeleteImagePropertyByUrlImage(nameDeletedImage);
+                }
+            }
+            await AddPropertyImages(resultUpdateProperty);
+        }
+        await JsRuntime.ToastrSuccess("Property updated successfully");
+        navigationManager.NavigateTo("properties");
+    }
+
+    /// <summary>
+    /// Se encarga de subir los archivos de las img para ciertos formatos
+    /// validando si ya existen imagenes
+    /// </summary>
+    /// <param name="files"></param>
+    /// <returns>mensaje satisfactorio o de error al subir una imagen</returns>
+    private async Task HandlerOnUploadFile(InputFileChangeEventArgs files)
+    {
+        imageUploadProcessIsStarted = true;
+        try
+        {
+            var images = new List<string>();
+
+            if (files.GetMultipleFiles().Count() > 0)
+            {
+                foreach (var file in files.GetMultipleFiles())
+                {
+                    FileInfo fileInfo = new FileInfo(file.Name);
+                    if (fileInfo.Extension.ToLower() == ".jpg"
+                        || fileInfo.Extension.ToLower() == ".png"
+                        || fileInfo.Extension.ToLower() == ".jpeg")
+                    {
+                        var uploadedImagePatch = await uploadFile.uploadFiles(file);
+                        images.Add(uploadedImagePatch);
+                    }
+                    else
+                    {
+                        await JsRuntime.ToastrError("please select only .png/ .jpg/ and .jpeg format");
+                        return;
+                    }
+                }
+
+                if (images.Any())
+                {
+                    if (propertyDTO.UrlImages != null && propertyDTO.UrlImages.Any())
+                    {
+                        propertyDTO.UrlImages.AddRange(images);
+                    }
+                    else
+                    {
+                        propertyDTO.UrlImages = new List<string>();
+                        propertyDTO.UrlImages.AddRange(images);
+                    }
+                }
+                else
+                {
+                    await JsRuntime.ToastrError("Image loading failed");
+                    return;
+                }
+            }
+            imageUploadProcessIsStarted = false;
+        }
+        catch (Exception)
+        {
+            throw;
+        }
+    }
+
+    /// <summary>
+    /// elimina una imagen por su url
+    /// </summary>
+    /// <param name="urlImage"></param>
+    /// <returns>mensaje satisfactorio o de error al eliminar la imagen</returns>
+    internal async Task DeleteImage(string urlImage)
+    {
+        try
+        {
+            var imageIndex = propertyDTO.UrlImages.FindIndex(u => u == urlImage);
+            var imageName = urlImage.Replace($"{navigationManager.BaseUri}PropertiesImages/", "");
+
+            nameDeletedImages ??= new List<string>();
+            nameDeletedImages.Add(urlImage);
+
+            propertyDTO.UrlImages.RemoveAt(imageIndex);
+        }
+        catch (Exception ex)
+        {
+            await JsRuntime.ToastrError(ex.Message);
+            return;
+        }
+    }
+
+
+    private async Task AddPropertyImages(PropertyDTO propDTO)
+    {
+        foreach (var urlImage in propertyDTO.UrlImages)
+        {
+            if (propertyDTO.PropertyImages == null ||
+                propertyDTO.PropertyImages.Where(i => i.UrlImageProperty == urlImage).Count() == 0)
+            {
+                imageDTO = new PropertyImageDTO()
+                    {
+                        PropertyId = propDTO.Id,
+                        UrlImageProperty = urlImage
+                    };
+                await propertyImageRepository.CreatePropertyWithImage(imageDTO);
+            }
+        }
+    }
+}
+

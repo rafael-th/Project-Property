@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\PropiedadesBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PropiedadesBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\Images\\department.png",
+      "PackagePath": "staticwebassets\\Images\\department.png"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\Images\\no-image.jpg",
+      "PackagePath": "staticwebassets\\Images\\no-image.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\30adab11-5ffd-4588-9483-0e05494cf6d7.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\30adab11-5ffd-4588-9483-0e05494cf6d7.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\32699f03-500c-4295-bf3d-7c07086f3419.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\32699f03-500c-4295-bf3d-7c07086f3419.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\3cdf63b2-2ce2-4651-b5b7-c63d1855b7ab.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\3cdf63b2-2ce2-4651-b5b7-c63d1855b7ab.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\3d405029-1c90-4b31-b107-8ab49c9f27d9.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\3d405029-1c90-4b31-b107-8ab49c9f27d9.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\43c7a3ab-f1d4-43c7-9311-2289e08092dc.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\43c7a3ab-f1d4-43c7-9311-2289e08092dc.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\73ddc002-d67a-4baf-9f9e-4521e0f6f6f1.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\73ddc002-d67a-4baf-9f9e-4521e0f6f6f1.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\7fbe3a55-ffba-485b-be9b-e950d11154af.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\7fbe3a55-ffba-485b-be9b-e950d11154af.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\a363915b-49cd-4cb9-b114-4e322253c916.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\a363915b-49cd-4cb9-b114-4e322253c916.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\ce7308b1-2fa1-4085-9961-cf46d81deb12.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\ce7308b1-2fa1-4085-9961-cf46d81deb12.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\d093c587-46e4-429a-87c8-7b0173b80db6.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\d093c587-46e4-429a-87c8-7b0173b80db6.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\d0af7d6a-3a82-4365-8d1c-4f87cf2befb9.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\d0af7d6a-3a82-4365-8d1c-4f87cf2befb9.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\PropertiesImages\\efc85fa1-d944-44a3-a7c4-a8a7af9c6d4f.jpg",
+      "PackagePath": "staticwebassets\\PropertiesImages\\efc85fa1-d944-44a3-a7c4-a8a7af9c6d4f.jpg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Portafolios Web\\PropBlazorServer2\\PropiedadesBlazorServer\\PropiedadesBlazor\\wwwroot\\js\\common.js",
+      "PackagePath": "staticwebassets\\js\\common.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PropiedadesBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PropiedadesBlazor.props",
+      "PackagePath": "build\\PropiedadesBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PropiedadesBlazor.props",
+      "PackagePath": "buildMultiTargeting\\PropiedadesBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PropiedadesBlazor.props",
+      "PackagePath": "buildTransitive\\PropiedadesBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

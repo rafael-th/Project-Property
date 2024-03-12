@@ -1,0 +1,59 @@
+﻿@page "/property-detail/{Id:int}"
+@using PropiedadesBlazor.Models.DTO
+@using PropiedadesBlazor.Repository.IRepository
+@inject IPropertyRepository propertyRepository
+
+<PageTitle>Detail</PageTitle>
+
+<h1 class="text-center">Property Detail</h1>
+
+<div class="card">
+    <div class="card-header">
+        <div class="row">
+        <h2>@propertyDTO.Name</h2>
+        </div>
+    </div>
+    <div class="card-body">
+                    
+        @if (propertyDTO.UrlImages != null)
+        {
+            <div class="row">
+                @foreach (var image in propertyDTO.UrlImages)
+                {
+                    <div class="col-4">
+                        <img src="@image" class="img-fluid image-detail" />
+                    </div>
+               
+                }
+            </div>
+        }        
+
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Description:</strong> @propertyDTO.Description</li>
+            <li class="list-group-item"><strong>Area:</strong> @propertyDTO.Area</li>
+            <li class="list-group-item"><strong>Rooms:</strong> @propertyDTO.bedrooms</li>
+            <li class="list-group-item"><strong>Bathrooms:</strong> @propertyDTO.bathrooms</li>            
+            <li class="list-group-item"><strong>Parking:</strong> @propertyDTO.parking</li>
+            <li class="list-group-item"><strong>Price:</strong> $@propertyDTO.Price</li>
+            <li class="list-group-item"><strong>Update Date:</strong> @propertyDTO.UpdateDate</li>
+        </ul>
+
+    </div>
+    <div class="card-footer">
+        <NavLink href="/" class="btn btn-secondary"><i class="bi bi-arrow-left-circle-fill"></i>&nbsp; Back</NavLink>
+    </div>
+</div>
+   
+
+@code {
+    private PropertyDTO propertyDTO { get; set; } = new PropertyDTO();
+
+    [Parameter]
+    public int? Id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        propertyDTO = await propertyRepository.GetProperty(Id.Value);
+        propertyDTO.UrlImages = propertyDTO.PropertyImages.Select(i => i.UrlImageProperty).ToList();
+    }
+}
